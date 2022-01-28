@@ -9,7 +9,7 @@ def calculatePay():
         pay = h * r
     else:
         pay = (h - 40) * (r * 1.5) + (40 * r)
-    print(pay)
+    print("Pay: " + str(pay))
     
     # end assignment
 
